@@ -1,0 +1,76 @@
+{
+    "numerical_features_order": [
+        "demand_cluster",
+        "month_sin",
+        "month_cos",
+        "lead_time",
+        "total_stay_nights",
+        "total_guests",
+        "is_family",
+        "is_repeat_guest",
+        "has_special_requests",
+        "is_resort",
+        "booking_changes",
+        "weekend_ratio"
+    ],
+    "categorical_features_to_encode": [
+        "market_segment",
+        "distribution_channel",
+        "reserved_room_type",
+        "customer_type"
+    ],
+    "expected_final_features": [
+        "demand_cluster",
+        "month_sin",
+        "month_cos",
+        "lead_time",
+        "total_stay_nights",
+        "total_guests",
+        "is_family",
+        "is_repeat_guest",
+        "has_special_requests",
+        "is_resort",
+        "booking_changes",
+        "weekend_ratio",
+        "market_segment_Aviation",
+        "market_segment_Complementary",
+        "market_segment_Corporate",
+        "market_segment_Direct",
+        "market_segment_Groups",
+        "market_segment_Offline TA/TO",
+        "market_segment_Online TA",
+        "distribution_channel_Corporate",
+        "distribution_channel_Direct",
+        "distribution_channel_GDS",
+        "distribution_channel_TA/TO",
+        "distribution_channel_Undefined",
+        "reserved_room_type_A",
+        "reserved_room_type_B",
+        "reserved_room_type_C",
+        "reserved_room_type_D",
+        "reserved_room_type_E",
+        "reserved_room_type_F",
+        "reserved_room_type_G",
+        "reserved_room_type_H",
+        "reserved_room_type_L",
+        "customer_type_Contract",
+        "customer_type_Group",
+        "customer_type_Transient",
+        "customer_type_Transient-Party"
+    ],
+    "cluster_features": [
+        "lead_time",
+        "arrival_date_week_number",
+        "total_stay_nights",
+        "total_of_special_requests"
+    ],
+    "sorting_cluster_map": {
+        "2": 0,
+        "0": 1,
+        "1": 2
+    },
+    "metrics": {
+        "MAE": 16.12,
+        "R2": 0.6838
+    }
+}
